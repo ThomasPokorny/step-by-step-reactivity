@@ -18,24 +18,6 @@ redisClient.connect().then(() => {
     startAnalyticsService();
 });
 
-function processTotalUserRevenue(order) {
-    const userAggregateKey = `user:${order.user.id}`;
-    redisClient.hGet(userAggregateKey, 'totalSpent')
-        .then((totalSpent) => {
-            totalSpent = totalSpent ? parseFloat(totalSpent) : 0;
-            const orderRevenue = order.totalPrice || 0; // Assuming order.totalPrice is the total order amount
-
-            const newTotalSpent = totalSpent + orderRevenue;
-
-            // Update the Redis cache with the new total spent
-            void redisClient.hSet(userAggregateKey, 'totalSpent', newTotalSpent);
-            void redisClient.hSet(userAggregateKey, 'name', order.user.name);
-
-            console.log(`User ${order.user.name}: Total spent: ${newTotalSpent}`);
-        }).catch((err) => {
-        console.error(`Error getting total spent for user ${order.user.id} from Redis: ${err}`);
-    });
-}
 
 function startAnalyticsService() {
 
@@ -87,6 +69,30 @@ function startAnalyticsService() {
 
                     if (productAggregates.length === productKeys.length) {
                         res.json({ products: productAggregates });
+                    }
+                });
+            });
+        });
+    });
+
+    app.get('/user-aggregates', (req, res) => {
+        const userKeysPattern = 'user:*';
+        redisClient.keys(userKeysPattern).then((userKeys) => {
+            // Fetch details for each user key
+            const userAggregates = [];
+
+            userKeys.forEach((userKey) => {
+                redisClient.hGetAll(userKey).then((userInfo) => {
+                    if (userInfo) {
+                        userAggregates.push({
+                            id: userInfo.id,
+                            userName: userInfo.name,
+                            totalSpent: userInfo.totalSpent,
+                        });
+                    }
+
+                    if (userAggregates.length === userKeys.length) {
+                        res.json({ users: userAggregates });
                     }
                 });
             });
@@ -152,5 +158,25 @@ function processTotalRevenue(order) {
             console.log(`Total revenue: ${newTotalRevenue} €`);
         }).catch((err) => {
         console.error(`Error getting total revenue from Redis: ${err}`);
+    });
+}
+
+function processTotalUserRevenue(order) {
+    const userAggregateKey = `user:${order.user.id}`;
+    redisClient.hGet(userAggregateKey, 'totalSpent')
+        .then((totalSpent) => {
+            totalSpent = totalSpent ? parseFloat(totalSpent) : 0;
+            const orderRevenue = order.totalPrice || 0; // Assuming order.totalPrice is the total order amount
+
+            const newTotalSpent = totalSpent + orderRevenue;
+
+            // Update the Redis cache with the new total spent
+            void redisClient.hSet(userAggregateKey, 'totalSpent', newTotalSpent);
+            void redisClient.hSet(userAggregateKey, 'name', order.user.name);
+            void redisClient.hSet(userAggregateKey, 'id', order.user.id);
+
+            console.log(`User ${order.user.name}: Total spent: ${newTotalSpent}`);
+        }).catch((err) => {
+        console.error(`Error getting total spent for user ${order.user.id} from Redis: ${err}`);
     });
 }
