@@ -1,0 +1,119 @@
+{
+	"info": {
+		"_postman_id": "c5637797-cdb1-43eb-91fe-b73cd7c17868",
+		"name": "StepByStepReactivity",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24437763"
+	},
+	"item": [
+		{
+			"name": "AnalyticsService",
+			"item": [
+				{
+					"name": "Process Order",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\": \"#4\",\n\t\"products\": [\n\t\t{\"id\": \"#1\", \"name\": \"myproduct\", \"price\": 30, \"amount\": 1},\n\t\t{\"id\": \"#2\", \"name\": \"anotherproduct\", \"price\": 15, \"amount\": 2}\n\t],\n\t\"totalPrice\": 60,\n\t\"user\": {\n\t\t\"id\": \"12124\",\n\t\t\"name\": \"Peter Zwergert\"\n\t}\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3001/orders",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Total amount of orders",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/total-number-of-orders",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"total-number-of-orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Total revenue",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/total-revenue",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"total-revenue"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Product Aggregates",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/product-aggregates",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"product-aggregates"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User Aggregates",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/user-aggregates",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"user-aggregates"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
