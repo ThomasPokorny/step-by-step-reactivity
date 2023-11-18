@@ -1,7 +1,22 @@
 version: '3'
+
 services:
-  redis:
-    image: 'redis:latest'
+  nodejs-service:
+    image: node:14
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - REDIS_HOST=redis
+    command: npm start
     ports:
-      - '6379:6379'
+      - "3001:3001"
+    depends_on:
+      - redis
+
+  redis:
+    image: "redis:latest"
+    ports:
+      - "6379:6379"
+
 

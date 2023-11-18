@@ -7,12 +7,14 @@ const port = 3001;
 
 // Redis configuration
 const redisConfig = {
-    host: 'localhost',
+    host: process.env.REDIS_HOST || 'localhost',
     port: 6379,
 };
 
 // Create a Redis client with the specified configuration
-const redisClient = redis.createClient(redisConfig);
+const redisClient = redis.createClient({
+    url: `redis://${redisConfig.host}:${redisConfig.port}`
+});
 redisClient.connect().then(() => {
     console.log('Connected to Redis');
     startAnalyticsService();
