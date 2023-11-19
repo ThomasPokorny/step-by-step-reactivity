@@ -1,5 +1,8 @@
 const express = require('express');
 const redis = require('redis');
+const {Kafka, logLevel, CompressionCodecs, CompressionTypes} = require('kafkajs');
+const SnappyCodec = require('kafkajs-snappy');
+
 
 const app = express();
 app.use(express.json());
@@ -20,6 +23,27 @@ redisClient.connect().then(() => {
     startAnalyticsService();
 });
 
+// RedPanda Configuration
+CompressionCodecs[CompressionTypes.Snappy] = SnappyCodec;
+const kafka = new Kafka({
+    logLevel: logLevel.ERROR,
+    brokers: process.env.KAFKA_BROKER ? [process.env.KAFKA_BROKER] : [`localhost:9092`],
+    clientId: 'analytics-service-consumer',
+});
+
+const topic = 'orders';
+const consumer = kafka.consumer({groupId: 'analytics-group'});
+
+const run = async () => {
+    await consumer.connect()
+    await consumer.subscribe({topic, fromBeginning: true})
+    await consumer.run({
+        eachMessage: async ({topic, partition, message}) => {
+            processOrder(JSON.parse(message.value.toString()));
+        },
+    })
+}
+run().catch(e => console.error(`[analytics-service-consumer] ${e.message}`, e));
 
 function startAnalyticsService() {
 
@@ -70,7 +94,7 @@ function startAnalyticsService() {
                     }
 
                     if (productAggregates.length === productKeys.length) {
-                        res.json({ products: productAggregates });
+                        res.json({products: productAggregates});
                     }
                 });
             });
@@ -94,29 +118,29 @@ function startAnalyticsService() {
                     }
 
                     if (userAggregates.length === userKeys.length) {
-                        res.json({ users: userAggregates });
+                        res.json({users: userAggregates});
                     }
                 });
             });
         });
     });
 
-    // Function to process the order and update the aggregates in the  Redis cache
-    function processOrder(order) {
-        order.products.forEach((product) => {
-            processProduct(product);
-        });
-
-        processTotalOrderAmount();
-
-        processTotalRevenue(order);
-
-        processTotalUserRevenue(order);
-    }
-
     app.listen(port, () => {
         console.log(`AnalyticsService is running on port ${port}`);
     });
+}
+
+// Function to process the order and update the aggregates in the  Redis cache
+function processOrder(order) {
+    order.products.forEach((product) => {
+        processProduct(product);
+    });
+
+    processTotalOrderAmount();
+
+    processTotalRevenue(order);
+
+    processTotalUserRevenue(order);
 }
 
 function processProduct(product) {
@@ -131,7 +155,12 @@ function processProduct(product) {
         const newRevenue = existingRevenue + product.price * product.amount;
 
         // Update the Redis cache with the new amount
-        redisClient.hSet(key, field, JSON.stringify({id:product.id, name: product.name, amount: newAmount, revenue: newRevenue}));
+        redisClient.hSet(key, field, JSON.stringify({
+            id: product.id,
+            name: product.name,
+            amount: newAmount,
+            revenue: newRevenue
+        }));
 
         console.log(`Updated ${key}, field ${field} to ${newAmount} items of ${product.name}, with total revenue: ${newRevenue} €`);
     }).catch(() => console.log(`Updated ${key}, field ${field} to ${newAmount} items of ${product.name}`));
