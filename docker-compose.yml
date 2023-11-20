@@ -1,0 +1,40 @@
+version: '3'
+
+services:
+  analytics-service:
+    image: node:18
+    build:
+      context: analytics-service
+      dockerfile: Dockerfile
+    environment:
+      - REDIS_HOST=analytics-redis
+      - KAFKA_BROKER=redpanda:29092
+    command: npm start
+    ports:
+      - "3001:3001"
+    depends_on:
+      - analytics-redis
+      - redpanda
+
+  analytics-redis:
+    image: "redis:latest"
+    ports:
+      - "6379:6379"
+
+  redpanda:
+    image: vectorized/redpanda:v23.2.9
+    command:
+      - redpanda start
+      - --smp 1
+      - --overprovisioned
+      - --node-id 0
+      - --kafka-addr PLAINTEXT://0.0.0.0:29092,OUTSIDE://0.0.0.0:9092
+      - --advertise-kafka-addr PLAINTEXT://redpanda:29092,OUTSIDE://localhost:9092
+      - --pandaproxy-addr 0.0.0.0:8082
+      - --advertise-pandaproxy-addr localhost:8082
+    ports:
+      - 8081:8081
+      - 8082:8082
+      - 9092:9092
+      - 29092:29092
+
