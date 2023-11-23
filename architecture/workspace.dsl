@@ -9,9 +9,13 @@ workspace {
             "structurizr.groupSeparator" "/"
         }
 
-        user = person "User"
+        customer = person "Customer"
+        backOfficeOperator = person "Backoffice Operator"
 
         !include systems/analytics/models.dsl
+        !include systems/infra/models.dsl
+        !include systems/web/models.dsl
+        !include systems/orders/models.dsl
 
         !include ./relationships.dsl
     }

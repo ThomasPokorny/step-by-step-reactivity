@@ -2,10 +2,10 @@
   "id" : 1,
   "name" : "Name",
   "description" : "Description",
-  "lastModifiedDate" : "2023-11-23T09:57:49Z",
+  "lastModifiedDate" : "2023-11-23T14:21:31Z",
   "lastModifiedAgent" : "structurizr-javascript",
   "properties" : {
-    "structurizr.dsl" : "d29ya3NwYWNlIHsKICAgIAogICAgIWFkcnMgZGVjaXNpb25zCiAgICAhaWRlbnRpZmllcnMgaGllcmFyY2hpY2FsCgogICAgbW9kZWwgewoKICAgICAgICBwcm9wZXJ0aWVzIHsKICAgICAgICAgICAgInN0cnVjdHVyaXpyLmdyb3VwU2VwYXJhdG9yIiAiLyIKICAgICAgICB9CgogICAgICAgIHVzZXIgPSBwZXJzb24gIlVzZXIiCgogICAgICAgIHNvZnR3YXJlU3lzdGVtID0gc29mdHdhcmVTeXN0ZW0gIkFuYWx5dGljcyIKCiAgICAgICAgdXNlciAtPiBzb2Z0d2FyZVN5c3RlbSAiVXNlcyIKICAgIH0KCiAgICB2aWV3cyB7CgogICAgICAgIHRoZW1lIGRlZmF1bHQKICAgICAgICB0aGVtZSBodHRwczovL3N0YXRpYy5zdHJ1Y3R1cml6ci5jb20vdGhlbWVzL21pY3Jvc29mdC1henVyZS0yMDIzLjAxLjI0L3RoZW1lLmpzb24KICAgICAgICAKICAgICAgICBzdHlsZXMgewogICAgICAgIAogICAgICAgICAgICB0aGVtZSBkZWZhdWx0CiAgICAgICAgICAgIHRoZW1lIGh0dHBzOi8vc3RhdGljLnN0cnVjdHVyaXpyLmNvbS90aGVtZXMvbWljcm9zb2Z0LWF6dXJlLTIwMjMuMDEuMjQvdGhlbWUuanNvbgogICAgICAgICAgICAKICAgICAgICAgICAgZWxlbWVudCAiU29mdHdhcmUgU3lzdGVtIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBCb3gKICAgICAgICAgICAgICAgIHN0cm9rZVdpZHRoIDQKICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgZWxlbWVudCBDb250YWluZXIgewogICAgICAgICAgICAgICAgc2hhcGUgcm91bmRlZGJveAogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjNDM4ZGQ1CiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIGVsZW1lbnQgIlNlcnZpY2UiIHsKICAgICAgICAgICAgICAgIHNoYXBlIEhleGFnb24KICAgICAgICAgICAgICAgIGZvbnRTaXplIDE2CiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIGVsZW1lbnQgIkRhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBjeWxpbmRlcgogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICBlbGVtZW50ICJTdG9yYWdlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBjeWxpbmRlcgogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICBlbGVtZW50ICJXZWJBcHAiIHsKICAgICAgICAgICAgICAgIHNoYXBlIFdlYkJyb3dzZXIKICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgZWxlbWVudCAiTW9iaWxlQXBwIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBNb2JpbGVEZXZpY2VQb3J0cmFpdAogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICBlbGVtZW50IENvbXBvbmVudCB7CiAgICAgICAgICAgICAgICBzaGFwZSBDb21wb25lbnQKICAgICAgICAgICAgICAgIGZvbnRTaXplIDE2CiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIGVsZW1lbnQgIkdyb3VwIiB7CiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgICAgICBzdHJva2VXaWR0aCA1CiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIGVsZW1lbnQgInF1ZXVlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBQaXBlCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAidG9waWMiIHsKICAgICAgICAgICAgICAgIHNoYXBlIFBpcGUKICAgICAgICAgICAgfQogICAgICAgIAogICAgICAgICAgICByZWxhdGlvbnNoaXAgIlJlbGF0aW9uc2hpcCIgewogICAgICAgICAgICAgICAgZGFzaGVkIGZhbHNlCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIHJlbGF0aW9uc2hpcCAic3luYyIgewogICAgICAgICAgICAgICAgZGFzaGVkIGZhbHNlCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIHJlbGF0aW9uc2hpcCAiYXN5bmMiIHsKICAgICAgICAgICAgICAgIGRhc2hlZCB0cnVlCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIHJlbGF0aW9uc2hpcCAibWFudWFsIiB7CiAgICAgICAgICAgICAgICBjb2xvciBHb2xkCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIHJlbGF0aW9uc2hpcCAicXVlc3Rpb24iIHsKICAgICAgICAgICAgICAgIGRhc2hlZCB0cnVlCiAgICAgICAgICAgICAgICBjb2xvciByZWQKICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIGVsZW1lbnQgInRlYW0tYW5hbHl0aWNzIiB7CiAgICAgICAgICAgICAgICBzdHJva2UgI0Y2RDY0MwogICAgICAgICAgICAgICAgc3Ryb2tlV2lkdGggMTAKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgc3lzdGVtTGFuZHNjYXBlIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQoKICAgICAgICBzeXN0ZW1Db250ZXh0IHNvZnR3YXJlU3lzdGVtICJEaWFncmFtMSIgewogICAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CgogICAgfQoKfQo="
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKICAgIAogICAgIWFkcnMgZGVjaXNpb25zCiAgICAhaWRlbnRpZmllcnMgaGllcmFyY2hpY2FsCgogICAgbW9kZWwgewoKICAgICAgICBwcm9wZXJ0aWVzIHsKICAgICAgICAgICAgInN0cnVjdHVyaXpyLmdyb3VwU2VwYXJhdG9yIiAiLyIKICAgICAgICB9CgogICAgICAgIGN1c3RvbWVyID0gcGVyc29uICJDdXN0b21lciIKICAgICAgICBiYWNrT2ZmaWNlT3BlcmF0b3IgPSBwZXJzb24gIkJhY2tvZmZpY2UgT3BlcmF0b3IiCgogICAgICAgIEFuYWx5dGljc1N5cyA9IHNvZnR3YXJlU3lzdGVtICJBbmFseXRpY3MiewogICAgICAgICAgICAKICAgICAgICAgICAgdGFncyAidGVhbS1hbmFseXRpY3MiCiAgICAgICAgICAgIAogICAgICAgICAgICBiYWNrZ3JvdW5kU2VydmljZSA9IGNvbnRhaW5lciAiQW5hbHlzaXNTZXJ2aWNlIiB7CiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiAiVEJEIgogICAgICAgICAgICAgICAgdGVjaG5vbG9neSAiRXhwcmVzc0pTIgogICAgICAgICAgICAgICAgdGFncyAidGVhbS1hbmFseXRpY3MiCiAgICAgICAgICAgIH0KICAgICAgICAKICAgICAgICAgICAgYXBpID0gY29udGFpbmVyICJBbmFseXRpY3NBcGkiIHsKICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICJQcm92aWRlcyB0aGUgaW5mb3JtYXRpb24gYWZ0ZXIgYW5hbHlzaXMgZm9yIHRoZSBzYWtlIG9mIHRoZSBtYW5hZ2VtZW50IGRhc2hib2FyZCIKICAgICAgICAgICAgICAgIHRlY2hub2xvZ3kgIkV4cHJlc3NKUyIKICAgICAgICAgICAgICAgIHRhZ3MgInRlYW0tYW5hbHl0aWNzIgogICAgICAgICAgICB9CiAgICAgICAgCiAgICAgICAgICAgIGFuYWx5dGljc0Rhc2hib2FyZCA9IGNvbnRhaW5lciAiQW5hbHl0aWNzRGFzaGJvYXJkVUkiIHsKICAgICAgICAgICAgICBkZXNjcmlwdGlvbiAiVEJEIgogICAgICAgICAgICAgIHRlY2hub2xvZ3kgIlRCRCIKICAgICAgICAgICAgICB0YWdzICJ0ZWFtLWFuYWx5dGljcyIgIldlYkFwcCIKICAgICAgICAgICAgfQogICAgICAgIAogICAgICAgICAgICByZWRpc0NhY2hlID0gY29udGFpbmVyICJBbmFseXNpc1NlcnZpY2VEYXRhU3RvcmUiIHsKICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICJUQkQiCiAgICAgICAgICAgICAgICB0ZWNobm9sb2d5ICJyZWRpcyIKICAgICAgICAgICAgICAgIHRhZ3MgInRlYW0tYW5hbHl0aWNzIgogICAgICAgICAgICB9CiAgICAgICAgCiAgICAgICAgICAgIGJhY2tncm91bmRTZXJ2aWNlIC0+IHJlZGlzQ2FjaGUgIld0aXRlcyB0aGUgYWdncmVnYXRlZCB2YWx1ZXMgdG8iCiAgICAgICAgICAgIGFwaSAtPiByZWRpc0NhY2hlICJSZWFkaW5nIHRoZSBhZ2dyZWdhdGVkIHZhbHVlcyBmcm9tIgogICAgICAgICAgICBhbmFseXRpY3NEYXNoYm9hcmQgLT4gYXBpICJGZXRjaGVzIHRoZSB2YWx1ZXMgYW5kIHNob3dzIHRoZW0gdG8gdGhlIHVzZXIiCiAgICAgICAgCiAgICAgICAgfQogICAgICAgIGluZnJhID0gc29mdHdhcmVTeXN0ZW0gImluZnJhInsKICAgICAgICAgICAgCiAgICAgICAgICAgIHRhZ3MgInRlYW0taW5mcmEiCiAgICAgICAgICAgIAogICAgICAgICAgICBrYWZrYSA9IGNvbnRhaW5lciAiS2Fma2FfU3RyZWFtIiB7CiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiAiVEJEIgogICAgICAgICAgICAgICAgdGVjaG5vbG9neSAiVEJEIgogICAgICAgICAgICAgICAgdGFncyAidGVhbS1pbmZyYSIgInRvcGljIgogICAgICAgIAogICAgICAgICAgICAgICAgb3JkZXJzVG9waWMgPSBjb21wb25lbnQgIm9yZGVyc1RvcGljIiB7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgUHJvZHVjdE1hbmFnZW1lbnRTeXMgPSBzb2Z0d2FyZVN5c3RlbSAiUHJvZHVjdE1hbmFnZW1udCJ7CiAgICAgICAgICAgIAogICAgICAgICAgICB0YWdzICJ0ZWFtLWludGVybmFsLXBtIgogICAgICAgICAgICAKICAgICAgICAgICAgYXBpID0gY29udGFpbmVyICJQcm9kdWN0TWFuYWdlbWVudEFwaSIgewogICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIlRCRCIKICAgICAgICAgICAgICAgIHRlY2hub2xvZ3kgIlRCRCIKICAgICAgICAgICAgICAgIHRhZ3MgInRlYW0taW50ZXJuYWwtcG0iCiAgICAgICAgICAgIH0KICAgICAgICAKICAgICAgICAgICAgZGF0YWJhc2UgPSBjb250YWluZXIgIlByb2R1Y3RNYW5hZ2VtZW50REIiIHsKICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICJUQkQiCiAgICAgICAgICAgICAgICB0ZWNobm9sb2d5ICJUQkQiCiAgICAgICAgICAgICAgICB0YWdzICJ0ZWFtLWludGVybmFsLXBtIiAiRGF0YWJhc2UiCiAgICAgICAgICAgIH0KICAgICAgICAKICAgICAgICAgICAgcHJvZHVjdE1hbmFnZW1lbnRXZWIgPSBjb250YWluZXIgIlByb2R1Y3RNYW5hZ2VtZW50VUkiIHsKICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICJUQkQiCiAgICAgICAgICAgICAgICB0ZWNobm9sb2d5ICJUQkQiCiAgICAgICAgICAgICAgICB0YWdzICJ0ZWFtLWludGVybmFsLXBtIiAiV2ViQXBwIgogICAgICAgICAgICB9CiAgICAgICAgCiAgICAgICAgICAgIG1vYmlsZUFwcCA9IGNvbnRhaW5lciAiUHJvZHVjdE1hbmFnZW1lbnRBcHAiIHsKICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICJUQkQiCiAgICAgICAgICAgICAgICB0ZWNobm9sb2d5ICJUQkQiCiAgICAgICAgICAgICAgICB0YWdzICJ0ZWFtLWludGVybmFsLXBtIiAiTW9iaWxlQXBwIgogICAgICAgICAgICB9CiAgICAgICAgCiAgICAgICAgICAgIGFwaSAtPiBkYXRhYmFzZSAiUmVhZHMgRnJvbSIKICAgICAgICAgICAgYXBpIC0+IGRhdGFiYXNlICAiV3JpdGVzIHRvIgogICAgICAgIAogICAgICAgICAgICBwcm9kdWN0TWFuYWdlbWVudFdlYiAtPiBhcGkgImNhbGxzIHRoZSBlbmRwb2ludHMiCiAgICAgICAgfQogICAgICAgIE9yZGVyTWFuYWdlbWVudFN5cyA9IHNvZnR3YXJlU3lzdGVtICJPcmRlck1hbmFnZW1lbnQiewogICAgICAgICAgICAKICAgICAgICAgICAgdGFncyAidGVhbS1vcmRlcnMiCiAgICAgICAgICAgIAogICAgICAgICAgICBhcGkgPSBjb250YWluZXIgIk9yZGVyTWFuYWdlbWVudEFwaSIgewogICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIlRCRCIKICAgICAgICAgICAgICAgIHRlY2hub2xvZ3kgIlRCRCIKICAgICAgICAgICAgICAgIHRhZ3MgInRlYW0tb3JkZXJzIgogICAgICAgICAgICB9CiAgICAgICAgCiAgICAgICAgICAgIGRhdGFiYXNlID0gY29udGFpbmVyICJPcmRlck1hbmFnZW1lbnREQiIgewogICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIlRCRCIKICAgICAgICAgICAgICAgIHRlY2hub2xvZ3kgIlRCRCIKICAgICAgICAgICAgICAgIHRhZ3MgInRlYW0tb3JkZXJzIgogICAgICAgICAgICB9CiAgICAgICAgCiAgICAgICAgICAgIG9yZGVyV2ViID0gY29udGFpbmVyICJPcmRlcldlYiIgewogICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIlRCRCIKICAgICAgICAgICAgICAgIHRlY2hub2xvZ3kgIlRCRCIKICAgICAgICAgICAgICAgIHRhZ3MgInRlYW0tb3JkZXJzIgogICAgICAgIAogICAgICAgICAgICAgICAgQmFja29mZmljZU9yZGVyTWFuZ2VtZW50Q29udHJvbGxlciA9IGNvbXBvbmVudCAiQmFja29mZmljZU9yZGVyTWFuZ2VtZW50Q29udHJvbGxlciIgewogICAgICAgICAgICAgICAgfQogICAgICAgIAogICAgICAgICAgICAgICAgQ3VzdG9tZXJPcmRlckNvbnRyb2xsZXIgPSBjb21wb25lbnQgIkN1c3RvbWVyT3JkZXJDb250cm9sbGVyIiB7IAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgCiAgICAgICAgICAgIG9yZGVyV2ViIC0+IGFwaSAiQ2FsbHMgdGhlIGVuZHBvaW50cyIKICAgICAgICB9CgogICAgICAgIEFuYWx5dGljc1N5cy5iYWNrZ3JvdW5kU2VydmljZSAtPiBpbmZyYS5rYWZrYS5vcmRlcnNUb3BpYyAiQ29uc3VtZXMgT3JkZXJzIE1lc3NhZ2VzIgogICAgICAgIE9yZGVyTWFuYWdlbWVudFN5cy5hcGkgLT4gaW5mcmEua2Fma2EgIlB1Ymxpc2hlcyBPcmRlcnMgTWVzc2FnZXMiIHsKICAgICAgICAgIHRhZ3MgImFzeW5jIgogICAgICAgIH0KICAgICAgICAKICAgICAgICBjdXN0b21lciAtPiBPcmRlck1hbmFnZW1lbnRTeXMub3JkZXJXZWIuQ3VzdG9tZXJPcmRlckNvbnRyb2xsZXIgIlN1Ym1pdHMgT3JkZXJzIgogICAgICAgIGJhY2tPZmZpY2VPcGVyYXRvciAtPiBPcmRlck1hbmFnZW1lbnRTeXMub3JkZXJXZWIuQmFja29mZmljZU9yZGVyTWFuZ2VtZW50Q29udHJvbGxlciAiTWFuYWdlcyBPcmRlcnMiCiAgICB9CgogICAgdmlld3MgewoKICAgICAgICB0aGVtZSBkZWZhdWx0CiAgICAgICAgdGhlbWUgaHR0cHM6Ly9zdGF0aWMuc3RydWN0dXJpenIuY29tL3RoZW1lcy9taWNyb3NvZnQtYXp1cmUtMjAyMy4wMS4yNC90aGVtZS5qc29uCiAgICAgICAgCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAKICAgICAgICAgICAgdGhlbWUgZGVmYXVsdAogICAgICAgICAgICB0aGVtZSBodHRwczovL3N0YXRpYy5zdHJ1Y3R1cml6ci5jb20vdGhlbWVzL21pY3Jvc29mdC1henVyZS0yMDIzLjAxLjI0L3RoZW1lLmpzb24KICAgICAgICAgICAgCiAgICAgICAgICAgIGVsZW1lbnQgIlNvZnR3YXJlIFN5c3RlbSIgewogICAgICAgICAgICAgICAgc2hhcGUgQm94CiAgICAgICAgICAgICAgICBzdHJva2VXaWR0aCA0CiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIGVsZW1lbnQgQ29udGFpbmVyIHsKICAgICAgICAgICAgICAgIHNoYXBlIHJvdW5kZWRib3gKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzQzOGRkNQogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICBlbGVtZW50ICJTZXJ2aWNlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBIZXhhZ29uCiAgICAgICAgICAgICAgICBmb250U2l6ZSAxNgogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICBlbGVtZW50ICJEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgc2hhcGUgY3lsaW5kZXIKICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgZWxlbWVudCAiU3RvcmFnZSIgewogICAgICAgICAgICAgICAgc2hhcGUgY3lsaW5kZXIKICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgZWxlbWVudCAiV2ViQXBwIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBXZWJCcm93c2VyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIGVsZW1lbnQgIk1vYmlsZUFwcCIgewogICAgICAgICAgICAgICAgc2hhcGUgTW9iaWxlRGV2aWNlUG9ydHJhaXQKICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgZWxlbWVudCBDb21wb25lbnQgewogICAgICAgICAgICAgICAgc2hhcGUgQ29tcG9uZW50CiAgICAgICAgICAgICAgICBmb250U2l6ZSAxNgogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICBlbGVtZW50ICJHcm91cCIgewogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICAgICAgc3Ryb2tlV2lkdGggNQogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICBlbGVtZW50ICJxdWV1ZSIgewogICAgICAgICAgICAgICAgc2hhcGUgUGlwZQogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgInRvcGljIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBQaXBlCiAgICAgICAgICAgIH0KICAgICAgICAKICAgICAgICAgICAgcmVsYXRpb25zaGlwICJSZWxhdGlvbnNoaXAiIHsKICAgICAgICAgICAgICAgIGRhc2hlZCBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICByZWxhdGlvbnNoaXAgInN5bmMiIHsKICAgICAgICAgICAgICAgIGRhc2hlZCBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICByZWxhdGlvbnNoaXAgImFzeW5jIiB7CiAgICAgICAgICAgICAgICBkYXNoZWQgdHJ1ZQogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICByZWxhdGlvbnNoaXAgIm1hbnVhbCIgewogICAgICAgICAgICAgICAgY29sb3IgR29sZAogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICByZWxhdGlvbnNoaXAgInF1ZXN0aW9uIiB7CiAgICAgICAgICAgICAgICBkYXNoZWQgdHJ1ZQogICAgICAgICAgICAgICAgY29sb3IgcmVkCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICBlbGVtZW50ICJ0ZWFtLWFuYWx5dGljcyIgewogICAgICAgICAgICAgICAgc3Ryb2tlICNGNkQ2NDMKICAgICAgICAgICAgICAgIHN0cm9rZVdpZHRoIDEwCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgZWxlbWVudCAidGVhbS1pbmZyYSIgewogICAgICAgICAgICAgICAgc3Ryb2tlIE1hcm9vbgogICAgICAgICAgICAgICAgc3Ryb2tlV2lkdGggMTAKICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICBlbGVtZW50ICJ0ZWFtLW9yZGVycyIgewogICAgICAgICAgICAgICAgc3Ryb2tlIExpZ2h0Qmx1ZQogICAgICAgICAgICAgICAgc3Ryb2tlV2lkdGggMTAKICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIGVsZW1lbnQgInRlYW0taW50ZXJuYWwtcG0iIHsKICAgICAgICAgICAgICAgIHN0cm9rZSBHcmVlbgogICAgICAgICAgICAgICAgc3Ryb2tlV2lkdGggMTAKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgc3lzdGVtTGFuZHNjYXBlIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQoKICAgICAgICBzeXN0ZW1Db250ZXh0IEFuYWx5dGljc1N5cyAiRGlhZ3JhbTEiIHsKICAgICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQogICAgICAgIAogICAgICAgIGNvbnRhaW5lciBBbmFseXRpY3NTeXMgIkFuYWx5dGljc1N5c19Db250YWluZXJzIiB7CiAgICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KICAgICAgICAKICAgICAgICBjb250YWluZXIgQW5hbHl0aWNzU3lzICJBbmFseXRpY3NTeXNfQ29udGFpbmVyc19EZXBlbmRlbmNpZXNfYXNfQ29udGFpbmVyIiAiVEJEIiB7CiAgICAgICAgICAgICAgaW5jbHVkZSAiLT5BbmFseXRpY3NTeXMuYmFja2dyb3VuZFNlcnZpY2UtPiAmJiBlbGVtZW50LnR5cGU9PUNvbnRhaW5lciIKICAgICAgICB9CiAgICAgICAgLy8gc3lzdGVtQ29udGV4dCBQcm9kdWN0TWFuYWdlbWVudFN5cyAiUHJvZHVjdE1hbmFnZW1lbnRDb250ZXh0VmlldyIgewogICAgICAgIC8vICAgICAgIGluY2x1ZGUgKgogICAgICAgIC8vICAgICAgIGF1dG9MYXlvdXQKICAgICAgICAvLyB9CiAgICAgICAgCiAgICAgICAgY29udGFpbmVyIFByb2R1Y3RNYW5hZ2VtZW50U3lzICJQcm9kdWN0TWFuYWdlbWVudENvbnRhaW5lclZpZXciIHsKICAgICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQogICAgICAgIAogICAgICAgIHN5c3RlbUNvbnRleHQgT3JkZXJNYW5hZ2VtZW50U3lzICJPcmRlck1hbmFnZW1lbnRTeXNDb250ZXh0IiB7CiAgICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KICAgICAgICAKICAgICAgICBjb250YWluZXIgT3JkZXJNYW5hZ2VtZW50U3lzICJPcmRlck1hbmFnZW1lbnRTeXNfQ29udGFpbmVycyIgewogICAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CgogICAgfQoKfQo="
   },
   "configuration" : { },
   "model" : {
@@ -13,29 +13,386 @@
       "id" : "1",
       "tags" : "Element,Person",
       "properties" : {
-        "structurizr.dsl.identifier" : "user"
+        "structurizr.dsl.identifier" : "customer"
       },
-      "name" : "User",
+      "name" : "Customer",
       "relationships" : [ {
-        "id" : "3",
+        "id" : "39",
         "tags" : "Relationship",
         "properties" : {
-          "structurizr.dsl.identifier" : "ae40bac3-0520-41a5-ab0c-47199234fa17"
+          "structurizr.dsl.identifier" : "7ac65143-38b8-4a8b-9cd5-07f915fcf053"
         },
         "sourceId" : "1",
-        "destinationId" : "2",
-        "description" : "Uses"
+        "destinationId" : "27",
+        "description" : "Submits Orders"
+      }, {
+        "id" : "41",
+        "sourceId" : "1",
+        "destinationId" : "22",
+        "description" : "Submits Orders",
+        "linkedRelationshipId" : "39"
+      }, {
+        "id" : "40",
+        "sourceId" : "1",
+        "destinationId" : "25",
+        "description" : "Submits Orders",
+        "linkedRelationshipId" : "39"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "2",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "backofficeoperator"
+      },
+      "name" : "Backoffice Operator",
+      "relationships" : [ {
+        "id" : "43",
+        "sourceId" : "2",
+        "destinationId" : "25",
+        "description" : "Manages Orders",
+        "linkedRelationshipId" : "42"
+      }, {
+        "id" : "42",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "71b2e229-4cf0-47c7-8457-029899b74e56"
+        },
+        "sourceId" : "2",
+        "destinationId" : "26",
+        "description" : "Manages Orders"
+      }, {
+        "id" : "44",
+        "sourceId" : "2",
+        "destinationId" : "22",
+        "description" : "Manages Orders",
+        "linkedRelationshipId" : "42"
       } ],
       "location" : "Unspecified"
     } ],
     "softwareSystems" : [ {
-      "id" : "2",
-      "tags" : "Element,Software System",
+      "id" : "14",
+      "tags" : "Element,Software System,team-internal-pm",
       "properties" : {
-        "structurizr.dsl.identifier" : "softwaresystem"
+        "structurizr.dsl.identifier" : "productmanagementsys"
+      },
+      "name" : "ProductManagemnt",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "15",
+        "tags" : "Element,Container,team-internal-pm",
+        "properties" : {
+          "structurizr.dsl.identifier" : "productmanagementsys.api"
+        },
+        "name" : "ProductManagementApi",
+        "description" : "TBD",
+        "relationships" : [ {
+          "id" : "20",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "6b0a90aa-5536-4d9e-a383-977e04cdfd90"
+          },
+          "sourceId" : "15",
+          "destinationId" : "16",
+          "description" : "Writes to"
+        }, {
+          "id" : "19",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "cb68a1c4-3d61-49e3-a72d-fc772a632525"
+          },
+          "sourceId" : "15",
+          "destinationId" : "16",
+          "description" : "Reads From"
+        } ],
+        "technology" : "TBD",
+        "documentation" : { }
+      }, {
+        "id" : "16",
+        "tags" : "Element,Container,team-internal-pm,Database",
+        "properties" : {
+          "structurizr.dsl.identifier" : "productmanagementsys.database"
+        },
+        "name" : "ProductManagementDB",
+        "description" : "TBD",
+        "technology" : "TBD",
+        "documentation" : { }
+      }, {
+        "id" : "18",
+        "tags" : "Element,Container,team-internal-pm,MobileApp",
+        "properties" : {
+          "structurizr.dsl.identifier" : "productmanagementsys.mobileapp"
+        },
+        "name" : "ProductManagementApp",
+        "description" : "TBD",
+        "technology" : "TBD",
+        "documentation" : { }
+      }, {
+        "id" : "17",
+        "tags" : "Element,Container,team-internal-pm,WebApp",
+        "properties" : {
+          "structurizr.dsl.identifier" : "productmanagementsys.productmanagementweb"
+        },
+        "name" : "ProductManagementUI",
+        "description" : "TBD",
+        "relationships" : [ {
+          "id" : "21",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "c411f3ec-d952-448a-8720-2fd34431930b"
+          },
+          "sourceId" : "17",
+          "destinationId" : "15",
+          "description" : "calls the endpoints"
+        } ],
+        "technology" : "TBD",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "22",
+      "tags" : "Element,Software System,team-orders",
+      "properties" : {
+        "structurizr.dsl.identifier" : "ordermanagementsys"
+      },
+      "name" : "OrderManagement",
+      "relationships" : [ {
+        "id" : "38",
+        "sourceId" : "22",
+        "destinationId" : "11",
+        "description" : "Publishes Orders Messages",
+        "linkedRelationshipId" : "35"
+      }, {
+        "id" : "37",
+        "sourceId" : "22",
+        "destinationId" : "12",
+        "description" : "Publishes Orders Messages",
+        "linkedRelationshipId" : "35"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "24",
+        "tags" : "Element,Container,team-orders",
+        "properties" : {
+          "structurizr.dsl.identifier" : "ordermanagementsys.database"
+        },
+        "name" : "OrderManagementDB",
+        "description" : "TBD",
+        "technology" : "TBD",
+        "documentation" : { }
+      }, {
+        "id" : "25",
+        "tags" : "Element,Container,team-orders",
+        "properties" : {
+          "structurizr.dsl.identifier" : "ordermanagementsys.orderweb"
+        },
+        "name" : "OrderWeb",
+        "description" : "TBD",
+        "relationships" : [ {
+          "id" : "28",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "c0910833-c1f6-41ae-9a81-d88ad43b76c2"
+          },
+          "sourceId" : "25",
+          "destinationId" : "23",
+          "description" : "Calls the endpoints"
+        } ],
+        "technology" : "TBD",
+        "components" : [ {
+          "id" : "26",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "ordermanagementsys.orderweb.backofficeordermangementcontroller"
+          },
+          "name" : "BackofficeOrderMangementController",
+          "documentation" : { }
+        }, {
+          "id" : "27",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "ordermanagementsys.orderweb.customerordercontroller"
+          },
+          "name" : "CustomerOrderController",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "23",
+        "tags" : "Element,Container,team-orders",
+        "properties" : {
+          "structurizr.dsl.identifier" : "ordermanagementsys.api"
+        },
+        "name" : "OrderManagementApi",
+        "description" : "TBD",
+        "relationships" : [ {
+          "id" : "35",
+          "tags" : "Relationship,async",
+          "properties" : {
+            "structurizr.dsl.identifier" : "9a79fb77-5b8f-41c1-ae5d-dcf2f8189c0d"
+          },
+          "sourceId" : "23",
+          "destinationId" : "12",
+          "description" : "Publishes Orders Messages"
+        }, {
+          "id" : "36",
+          "sourceId" : "23",
+          "destinationId" : "11",
+          "description" : "Publishes Orders Messages",
+          "linkedRelationshipId" : "35"
+        } ],
+        "technology" : "TBD",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "3",
+      "tags" : "Element,Software System,team-analytics",
+      "properties" : {
+        "structurizr.dsl.identifier" : "analyticssys"
       },
       "name" : "Analytics",
+      "relationships" : [ {
+        "id" : "34",
+        "sourceId" : "3",
+        "destinationId" : "11",
+        "description" : "Consumes Orders Messages",
+        "linkedRelationshipId" : "29"
+      }, {
+        "id" : "32",
+        "sourceId" : "3",
+        "destinationId" : "13",
+        "description" : "Consumes Orders Messages",
+        "linkedRelationshipId" : "29"
+      }, {
+        "id" : "33",
+        "sourceId" : "3",
+        "destinationId" : "12",
+        "description" : "Consumes Orders Messages",
+        "linkedRelationshipId" : "29"
+      } ],
       "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "5",
+        "tags" : "Element,Container,team-analytics",
+        "properties" : {
+          "structurizr.dsl.identifier" : "analyticssys.api"
+        },
+        "name" : "AnalyticsApi",
+        "description" : "Provides the information after analysis for the sake of the management dashboard",
+        "relationships" : [ {
+          "id" : "9",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "a4c61238-bc7d-4951-9d9d-48192a3fd11b"
+          },
+          "sourceId" : "5",
+          "destinationId" : "7",
+          "description" : "Reading the aggregated values from"
+        } ],
+        "technology" : "ExpressJS",
+        "documentation" : { }
+      }, {
+        "id" : "6",
+        "tags" : "Element,Container,team-analytics,WebApp",
+        "properties" : {
+          "structurizr.dsl.identifier" : "analyticssys.analyticsdashboard"
+        },
+        "name" : "AnalyticsDashboardUI",
+        "description" : "TBD",
+        "relationships" : [ {
+          "id" : "10",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "3549467f-6e54-44ee-9d43-1db0019644a9"
+          },
+          "sourceId" : "6",
+          "destinationId" : "5",
+          "description" : "Fetches the values and shows them to the user"
+        } ],
+        "technology" : "TBD",
+        "documentation" : { }
+      }, {
+        "id" : "4",
+        "tags" : "Element,Container,team-analytics",
+        "properties" : {
+          "structurizr.dsl.identifier" : "analyticssys.backgroundservice"
+        },
+        "name" : "AnalysisService",
+        "description" : "TBD",
+        "relationships" : [ {
+          "id" : "29",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "06325ee3-dd5c-41b4-81b5-f9c6152df584"
+          },
+          "sourceId" : "4",
+          "destinationId" : "13",
+          "description" : "Consumes Orders Messages"
+        }, {
+          "id" : "31",
+          "sourceId" : "4",
+          "destinationId" : "11",
+          "description" : "Consumes Orders Messages",
+          "linkedRelationshipId" : "29"
+        }, {
+          "id" : "30",
+          "sourceId" : "4",
+          "destinationId" : "12",
+          "description" : "Consumes Orders Messages",
+          "linkedRelationshipId" : "29"
+        }, {
+          "id" : "8",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "032372ee-22c3-42c3-8a93-8726b43895fe"
+          },
+          "sourceId" : "4",
+          "destinationId" : "7",
+          "description" : "Wtites the aggregated values to"
+        } ],
+        "technology" : "ExpressJS",
+        "documentation" : { }
+      }, {
+        "id" : "7",
+        "tags" : "Element,Container,team-analytics",
+        "properties" : {
+          "structurizr.dsl.identifier" : "analyticssys.rediscache"
+        },
+        "name" : "AnalysisServiceDataStore",
+        "description" : "TBD",
+        "technology" : "redis",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "11",
+      "tags" : "Element,Software System,team-infra",
+      "properties" : {
+        "structurizr.dsl.identifier" : "infra"
+      },
+      "name" : "infra",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "12",
+        "tags" : "Element,Container,team-infra,topic",
+        "properties" : {
+          "structurizr.dsl.identifier" : "infra.kafka"
+        },
+        "name" : "Kafka_Stream",
+        "description" : "TBD",
+        "technology" : "TBD",
+        "components" : [ {
+          "id" : "13",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "infra.kafka.orderstopic"
+          },
+          "name" : "ordersTopic",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      } ],
       "documentation" : { }
     } ],
     "properties" : {
@@ -56,32 +413,55 @@
     "systemLandscapeViews" : [ {
       "key" : "SystemLandscape-001",
       "order" : 1,
-      "paperSize" : "A6_Portrait",
+      "paperSize" : "A3_Landscape",
       "dimensions" : {
-        "width" : 866,
+        "width" : 3766,
         "height" : 1416
       },
       "enterpriseBoundaryVisible" : true,
+      "relationships" : [ {
+        "id" : "41"
+      }, {
+        "id" : "34"
+      }, {
+        "id" : "44"
+      }, {
+        "id" : "38"
+      } ],
       "elements" : [ {
+        "id" : "11",
+        "x" : 1283,
+        "y" : 908
+      }, {
+        "id" : "22",
+        "x" : 908,
+        "y" : 258
+      }, {
         "id" : "1",
-        "x" : 233,
+        "x" : 208,
         "y" : 208
       }, {
         "id" : "2",
-        "x" : 208,
-        "y" : 908
-      } ],
-      "relationships" : [ {
-        "id" : "3"
+        "x" : 210,
+        "y" : 725
+      }, {
+        "id" : "3",
+        "x" : 1658,
+        "y" : 258
+      }, {
+        "id" : "14",
+        "x" : 2408,
+        "y" : 258
       } ]
     } ],
     "systemContextViews" : [ {
       "key" : "Diagram1",
       "order" : 2,
-      "softwareSystemId" : "2",
+      "softwareSystemId" : "3",
+      "paperSize" : "A6_Portrait",
       "dimensions" : {
-        "width" : 850,
-        "height" : 1400
+        "width" : 866,
+        "height" : 1316
       },
       "automaticLayout" : {
         "implementation" : "Graphviz",
@@ -92,17 +472,230 @@
         "vertices" : false
       },
       "enterpriseBoundaryVisible" : true,
+      "relationships" : [ {
+        "id" : "34"
+      } ],
       "elements" : [ {
+        "id" : "11",
+        "x" : 208,
+        "y" : 808
+      }, {
+        "id" : "3",
+        "x" : 208,
+        "y" : 208
+      } ]
+    }, {
+      "key" : "OrderManagementSysContext",
+      "order" : 6,
+      "softwareSystemId" : "22",
+      "paperSize" : "A5_Portrait",
+      "dimensions" : {
+        "width" : 1516,
+        "height" : 2016
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "relationships" : [ {
+        "id" : "41"
+      }, {
+        "id" : "44"
+      }, {
+        "id" : "38"
+      } ],
+      "elements" : [ {
+        "id" : "22",
+        "x" : 533,
+        "y" : 908
+      }, {
+        "id" : "11",
+        "x" : 533,
+        "y" : 1508
+      }, {
         "id" : "1",
-        "x" : 225,
-        "y" : 199
+        "x" : 208,
+        "y" : 208
       }, {
         "id" : "2",
-        "x" : 200,
-        "y" : 899
-      } ],
+        "x" : 908,
+        "y" : 208
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "OrderManagementSys_Containers",
+      "order" : 7,
+      "softwareSystemId" : "22",
+      "dimensions" : {
+        "width" : 1945,
+        "height" : 2600
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
       "relationships" : [ {
-        "id" : "3"
+        "id" : "28"
+      }, {
+        "id" : "40"
+      }, {
+        "id" : "36"
+      }, {
+        "id" : "43"
+      } ],
+      "elements" : [ {
+        "id" : "11",
+        "x" : 524,
+        "y" : 2100
+      }, {
+        "id" : "1",
+        "x" : 199,
+        "y" : 200
+      }, {
+        "id" : "23",
+        "x" : 524,
+        "y" : 1500
+      }, {
+        "id" : "24",
+        "x" : 1274,
+        "y" : 900
+      }, {
+        "id" : "2",
+        "x" : 899,
+        "y" : 200
+      }, {
+        "id" : "25",
+        "x" : 524,
+        "y" : 900
+      } ]
+    }, {
+      "key" : "AnalyticsSys_Containers",
+      "order" : 3,
+      "softwareSystemId" : "3",
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 2412,
+        "height" : 2158
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "8"
+      }, {
+        "id" : "9"
+      }, {
+        "id" : "10"
+      }, {
+        "id" : "31"
+      } ],
+      "elements" : [ {
+        "id" : "11",
+        "x" : 1737,
+        "y" : 1529
+      }, {
+        "id" : "4",
+        "x" : 1079,
+        "y" : 929
+      }, {
+        "id" : "5",
+        "x" : 329,
+        "y" : 929
+      }, {
+        "id" : "6",
+        "x" : 329,
+        "y" : 329
+      }, {
+        "id" : "7",
+        "x" : 658,
+        "y" : 1529
+      } ]
+    }, {
+      "key" : "AnalyticsSys_Containers_Dependencies_as_Container",
+      "order" : 4,
+      "description" : "TBD",
+      "softwareSystemId" : "3",
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 1858,
+        "height" : 1558
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "8"
+      }, {
+        "id" : "30"
+      } ],
+      "elements" : [ {
+        "id" : "12",
+        "x" : 1079,
+        "y" : 929
+      }, {
+        "id" : "4",
+        "x" : 330,
+        "y" : 180
+      }, {
+        "id" : "7",
+        "x" : 320,
+        "y" : 945
+      } ]
+    }, {
+      "key" : "ProductManagementContainerView",
+      "order" : 5,
+      "softwareSystemId" : "14",
+      "paperSize" : "A4_Portrait",
+      "dimensions" : {
+        "width" : 1858,
+        "height" : 2158
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "21"
+      }, {
+        "id" : "20"
+      }, {
+        "id" : "19"
+      } ],
+      "elements" : [ {
+        "id" : "15",
+        "x" : 1079,
+        "y" : 929
+      }, {
+        "id" : "16",
+        "x" : 1079,
+        "y" : 1529
+      }, {
+        "id" : "17",
+        "x" : 1079,
+        "y" : 329
+      }, {
+        "id" : "18",
+        "x" : 329,
+        "y" : 329
       } ]
     } ],
     "configuration" : {
@@ -151,6 +744,18 @@
           "tag" : "team-analytics",
           "stroke" : "#f6d643",
           "strokeWidth" : 10
+        }, {
+          "tag" : "team-infra",
+          "stroke" : "#800000",
+          "strokeWidth" : 10
+        }, {
+          "tag" : "team-orders",
+          "stroke" : "#add8e6",
+          "strokeWidth" : 10
+        }, {
+          "tag" : "team-internal-pm",
+          "stroke" : "#008000",
+          "strokeWidth" : 10
         } ],
         "relationships" : [ {
           "tag" : "Relationship",
@@ -173,7 +778,7 @@
       "themes" : [ "https://static.structurizr.com/themes/default/theme.json", "https://static.structurizr.com/themes/microsoft-azure-2023.01.24/theme.json" ],
       "terminology" : { },
       "metadataSymbols" : "SquareBrackets",
-      "lastSavedView" : "Diagram1"
+      "lastSavedView" : "OrderManagementSys_Containers"
     }
   }
 }
