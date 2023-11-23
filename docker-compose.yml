@@ -38,3 +38,9 @@ services:
       - 9092:9092
       - 29092:29092
 
+  structurizr:
+    image: structurizr/lite:latest
+    ports:
+      - 8090:8080
+    volumes:
+      - "./architecture:/usr/local/structurizr"
