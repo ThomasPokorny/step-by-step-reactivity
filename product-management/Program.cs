@@ -1,25 +1,47 @@
-using System.Text.Json.Serialization;
+using KafkaFlow;
+using KafkaFlow.Producers;
+using KafkaFlow.Serializer.SchemaRegistry;
+using static Microsoft.AspNetCore.Http.Results;
 
 var builder = WebApplication.CreateBuilder(args);
 
+const string topicName = "products";
+const string producerName = "product-management";
+
+builder.Services.AddKafka(kafka =>
+{
+    kafka.UseConsoleLog()
+        .AddCluster(
+            cluster =>
+            {
+                cluster
+                    .WithBrokers(new[] { builder.Configuration.GetConnectionString("Kafka") })
+                    .CreateTopicIfNotExists(topicName, 1, 1)
+                    .AddProducer(producerName, producer =>
+                    {
+                        producer.DefaultTopic(topicName)
+                            .AddMiddlewares(m => m.AddSerializer<ConfluentAvroSerializer>());
+                    });
+            });
+});
+
 var app = builder.Build();
 
-var sampleTodos = new Todo[]
-{
-    new(1, "Walk the dog"),
-    new(2, "Do the dishes", DateOnly.FromDateTime(DateTime.Now)),
-    new(3, "Do the laundry", DateOnly.FromDateTime(DateTime.Now.AddDays(1))),
-    new(4, "Clean the bathroom"),
-    new(5, "Clean the car", DateOnly.FromDateTime(DateTime.Now.AddDays(2)))
-};
+var todosApi = app.MapGroup("/foods");
 
-var todosApi = app.MapGroup("/todos");
-todosApi.MapGet("/", () => sampleTodos);
-todosApi.MapGet("/{id}", (int id) =>
-    sampleTodos.FirstOrDefault(a => a.Id == id) is { } todo
-        ? Results.Ok(todo)
-        : Results.NotFound());
+todosApi.MapPost("/", async (AddFoodDto foodDto, IProducerAccessor producerAccessor) =>
+{
+    var food = new FoodAdded(Guid.NewGuid(), foodDto.Name);
+
+    var producer = producerAccessor.GetProducer(producerName);
+
+    await producer.ProduceAsync(topicName, food.Id.ToString(), food);
+
+    return Ok(food);
+});
 
 app.Run();
 
-public record Todo(int Id, string? Title, DateOnly? DueBy = null, bool IsComplete = false);
+public record FoodAdded(Guid Id, string Name);
+
+public record AddFoodDto(string Name);

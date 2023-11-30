@@ -15,6 +15,9 @@ docker-compose up
 
 ```cli
 docker exec -it step-by-step-reactivity-redpanda-1 rpk topic create orders --partitions 1
+
+docker exec -it step-by-step-reactivity-redpanda-1 rpk topic create products --partitions 1
+
 ```
 
 Produce order message:

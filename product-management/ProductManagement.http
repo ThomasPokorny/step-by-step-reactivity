@@ -1,11 +1,9 @@
-@ProductManagement_HostAddress = http://localhost:5230
+@ProductManagement_HostAddress = http://localhost:6001
 
-GET {{ProductManagement_HostAddress}}/todos/
+POST {{ProductManagement_HostAddress}}/foods
+Content-Type: application/json
 Accept: application/json
 
-###
-
-GET {{ProductManagement_HostAddress}}/todos/1
-Accept: application/json
-
-###
+{
+  "name" : "Juje Kabab"
+}

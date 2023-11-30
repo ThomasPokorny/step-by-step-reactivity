@@ -37,6 +37,25 @@ services:
       - 8082:8082
       - 9092:9092
       - 29092:29092
+  
+  product-redis:
+    image: "redis:latest"
+    ports:
+      - "16379:6379"
+  
+  product-service:
+    image: step-by-step/product-management:1.0-beta.1
+    build:
+      context: product-management
+      dockerfile: Dockerfile
+    environment:
+      - REDIS_HOST=product-redis
+      - ConnectionStrings__Kafka=redpanda:29092
+    ports:
+      - "6001:8080"
+    depends_on:
+      - product-redis
+      - redpanda
 
   structurizr:
     image: structurizr/lite:latest
