@@ -1,0 +1,11 @@
+@ProductManagement_HostAddress = http://localhost:5230
+
+GET {{ProductManagement_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{ProductManagement_HostAddress}}/todos/1
+Accept: application/json
+
+###
